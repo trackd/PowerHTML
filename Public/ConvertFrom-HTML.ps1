@@ -80,8 +80,8 @@
         [switch] $Raw
     )
     begin {
-            $html = [HtmlAgilityPack.HtmlDocument]::new()
-            $web = [HtmlAgilityPack.HtmlWeb]::new()
+        $html = [HtmlAgilityPack.HtmlDocument]::new()
+        $web = [HtmlAgilityPack.HtmlWeb]::new()
     }
     process {
         switch ($PSCmdlet.ParameterSetName) {
